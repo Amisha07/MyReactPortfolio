@@ -9,10 +9,10 @@
 
 ## Available Scripts
 
-In the projectdirectory,
-  components which contains all JS files for portfolio pages. 
-  img which has the pictures which are used in the website.
-  public which has the favicon created by myself. 
+In the projectdirectory,<br/>
+  components which contains all JS files for portfolio pages. <br/>
+  img which has the pictures which are used in the website. <br/>
+  public which has the favicon created by myself. <br/>
 
 
 
