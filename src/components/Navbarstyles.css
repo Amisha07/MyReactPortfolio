@@ -1,0 +1,209 @@
+body {
+  font-family: 'Roboto Mono';
+}
+
+.toggle_bts {
+ 
+    padding: 0;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.theme_panel {
+    position: fixed;
+    right: -220px;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #fcfcfc;
+    text-align: center;
+    z-index: 1001;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+.toggle_bts a {
+    margin-bottom: 10px;
+    display: block;
+    width: 65px;
+    height: 50px;
+    background: #fcfcfc;
+    text-align: center;
+    box-shadow: -4px 7px 10px rgba(0,0,0,0.1);
+    border-radius: 4px 0 0 4px;
+}
+
+
+
+.fa{
+    padding-right: 15px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FF5733;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+.fa:hover{
+    color: 	#000000;
+
+}
+
+.websiteFrame {
+    position: fixed;
+    z-index: 990;
+    background-color: #FF5733;
+  }
+  
+  #websiteFrameTop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+  }
+  
+  #websiteFrameRight {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+  }
+  
+  #websiteFrameBottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+  }
+  
+  #websiteFrameLeft {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+  }
+
+.listItem {
+  font-family: 'Roboto Mono';
+    font-weight: 700;
+    font-size: "30px"
+}
+
+
+
+
+.skills ul li .name {
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+  margin: 0 0 9px;
+}
+.section {
+  position: relative;
+  padding: 0 0 160px;
+  margin: 0 auto;
+  width: 926px;
+  z-index: 97;
+  opacity: 1;
+  visibility: visible;
+  transition: all .6s ease 0s;
+  -moz-transition: all .6s ease 0s;
+  -webkit-transition: all .6s ease 0s;
+  -o-transition: all .6s ease 0s;
+}
+.skills ul li .progress {
+  display: block;
+  height: 3px;
+  position: relative;
+  width: 100%;
+  background: #ddd;
+}
+
+.skills ul li .progress .percentage {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 3px;
+  background: #FF5733;
+  transition: all .3s ease 0s;
+  -moz-transition: all .3s ease 0s;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+}
+
+.skills ul li .progress .percentage .percent {
+  position: absolute;
+  top: -27px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap');
+
+
+.glitcheading {
+  position: relative;
+  text-align: center;
+  line-height: 1.4em;
+  color: black;
+}
+
+.main-text {
+  position: relative;
+  display: inline-block;
+  color:"#FF5733";
+
+}
+
+.back-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  color:"#FF5733" !important;
+}
+
+
+.glitch {
+  animation: glitch 2s infinite alternate;
+}
+
+@keyframes glitch{
+  20% {
+    transform: translate3d(4px, 0, 0);
+    opacity: 0.5;
+  }
+  24% {
+    transform: translate3d(4px, 0, 0);
+    opacity: 0.5;
+  }
+  64%{
+    opacity: 0.5;
+    transform: translate3d(-4px, 0px, 0);
+  }
+  68% {
+    opacity: 0.5;
+    transform: translate3d(-4px, 0, 0);
+  }
+
+}
