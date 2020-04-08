@@ -1,8 +1,6 @@
 ## Porfolio Pictures
 
-<video width="400" controls>
-  <source src="PorfolioImages/porfolio-video.mp" type="video/mp4">
-</video>
+<img src="PorfolioImages/P1.png" width="200" height="100" /> <img src="PorfolioImages/P2.png" width="200" height="100" /> <img src="PorfolioImages/P3.png" width="200" height="100" /> <img src="PorfolioImages/P4.png" width="100" height="150" />
 
 
 
